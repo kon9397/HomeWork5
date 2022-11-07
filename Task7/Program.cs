@@ -17,10 +17,10 @@
 
         if(!(!A & !B))
         {
-            Console.WriteLine("!(!A & !B) = " + (A | B));
+            Console.WriteLine("!(!A & !B) = " + (!(!A & !B)));
         } else
         {
-            Console.WriteLine("!(!A & !B) = " + (A | B));
+            Console.WriteLine("!(!A & !B) = " + (!(!A & !B)));
         }
 
         Console.ReadKey();
